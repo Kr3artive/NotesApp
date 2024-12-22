@@ -10,7 +10,7 @@ export const NotesProvider = ({ children }) => {
     setNotes(savedNotes);
   }, []);
 
-  // Save notes to localStorage whenever they change
+
   useEffect(() => {
     localStorage.setItem("notes", JSON.stringify(notes));
   }, [notes]);
