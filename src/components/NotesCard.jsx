@@ -3,7 +3,7 @@ import { NotesContext } from "../contexts/NotesContext";
 
 const NotesCard = () => {
   const { notes, deleteNote } = useContext(NotesContext);
-
+  
   return (
     <div className="bg-gray-100 p-4">
       <h1 className="text-3xl font-bold text-center text-blue-500 mb-6">
